@@ -6,6 +6,19 @@
 using namespace PMVS3;
 using namespace std;
 
+int mainPMVSOptimization(std::string folder, std::string fileoption){
+  PMVS3::Soption option;
+  option.init(folder, fileoption);  
+  
+  PMVS3::CfindMatch findMatch;
+  findMatch.init(option);
+  findMatch.run();
+  
+  char buffer[1024];
+  sprintf(buffer, "%smodels/%s", folder, fileoption);
+  findMatch.write(buffer);
+}
+
 int main(int argc, char* argv[]) {
   if (argc < 3) {
     cerr << "Usage: " << argv[0] << " prefix option_file" << endl
