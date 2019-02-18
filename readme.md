@@ -68,8 +68,11 @@ make
  ./pmvs2 ../../data/$namefolder /$optionfile.txt
 
 For default, We have a two folders. 
+
+```
 $namefolder: can is "rings50" or "sanpa" 
 $optionfile: can is "option.txt"
+```
 
 ## 3D reconstruction Rings pattern
 
@@ -91,8 +94,9 @@ This Projection matrix is get from our Calibration camera program in format txt 
 
 Finally, after execute PMVS, we get follow results:
 
-![alt text](https://github.com/LuisErnestoColchado/pmvs_ba.git/images/3drings.png)
+![alt text](https://github.com/LuisErnestoColchado/pmvs_ba.git/images/rings.gif)
 
+Link video:
 [![3D reconstruction Rings pattern](https://img.youtube.com/vi/rssW4VEUaSY/0.jpg)](https://www.youtube.com/watch?v=rssW4VEUaSY)
 
 ## 3D reconstruction the Catholic University San Pablo
@@ -104,8 +108,9 @@ In the same way, the SFM also gives us the txt files for each photographs, that 
 
 Finally, after execute PMVS, we get follow results:
 
-![alt text](https://github.com/LuisErnestoColchado/pmvs_ba.git/images/3dsanpablo.png)
+![alt text](https://github.com/LuisErnestoColchado/pmvs_ba.git/images/sanpablo.gif)
 
+Link video:
 [![3D reconstruction the Catholic University San Pablo](https://img.youtube.com/vi/tbi4XF5W5hQ/0.jpg)](https://www.youtube.com/watch?v=tbi4XF5W5hQ&feature=youtu.be)
 
 
