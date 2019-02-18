@@ -97,14 +97,14 @@ Finally, after execute PMVS, we get follow results:
 ![alt text](https://raw.githubusercontent.com/LuisErnestoColchado/pmvs_ba/master/images/rings.gif)
 
 Link video:
+
 [![3D reconstruction Rings pattern](https://img.youtube.com/vi/rssW4VEUaSY/0.jpg)](https://www.youtube.com/watch?v=rssW4VEUaSY)
 
 ## 3D reconstruction the Catholic University San Pablo
 
 In the same way, the SFM also gives us the txt files for each photographs, that contain the projection matrix.
 
-
-![alt text](https://github.com/LuisErnestoColchado/pmvs_ba.git/images/sanpablo.png)
+![alt text](https://raw.githubusercontent.com/LuisErnestoColchado/pmvs_ba/master/images/sanpablo.png)
 
 Finally, after execute PMVS, we get follow results:
 
