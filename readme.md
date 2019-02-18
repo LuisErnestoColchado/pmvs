@@ -78,7 +78,7 @@ $optionfile: can is "option.txt"
 
 For this reconstruction, we use our Camera Calibration program and PMVS. Our Camera Calibration program get us the parameters intrinsic of camera model and extrinsic in format txt, for each photographs that we give it. The txt file containe the CONTOUR Matrix, that is the projection matrix P.
 
-![alt text](https://github.com/LuisErnestoColchado/pmvs_ba.git/images/formula.png)
+![alt text](https://raw.githubusercontent.com/LuisErnestoColchado/pmvs_ba/master/images/formula.png)
 
 Where P is:
 
@@ -90,11 +90,11 @@ Where A is intrisic matrix, R rotation matrix and t is translation matrix.
 
 This Projection matrix is get from our Calibration camera program in format txt for each photographs. it is neccesary for execute PMVS.
 
-![alt text](https://github.com/LuisErnestoColchado/pmvs_ba.git/images/txtmodel.png)
+![alt text](https://raw.githubusercontent.com/LuisErnestoColchado/pmvs_ba/master/images/txtmodel.png)
 
 Finally, after execute PMVS, we get follow results:
 
-![alt text](https://github.com/LuisErnestoColchado/pmvs_ba.git/images/rings.gif)
+![alt text](https://raw.githubusercontent.com/LuisErnestoColchado/pmvs_ba/master/images/rings.gif)
 
 Link video:
 [![3D reconstruction Rings pattern](https://img.youtube.com/vi/rssW4VEUaSY/0.jpg)](https://www.youtube.com/watch?v=rssW4VEUaSY)
@@ -108,9 +108,10 @@ In the same way, the SFM also gives us the txt files for each photographs, that 
 
 Finally, after execute PMVS, we get follow results:
 
-![alt text](https://github.com/LuisErnestoColchado/pmvs_ba.git/images/sanpablo.gif)
+![alt text](https://raw.githubusercontent.com/LuisErnestoColchado/pmvs_ba/master/images/sanpablo.gif)
 
 Link video:
+
 [![3D reconstruction the Catholic University San Pablo](https://img.youtube.com/vi/tbi4XF5W5hQ/0.jpg)](https://www.youtube.com/watch?v=tbi4XF5W5hQ&feature=youtu.be)
 
 
